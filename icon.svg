@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 720">
+
+  <rect x="40" y="28" width="600" height="650" rx="130" fill="#4F7A3D"/>
+
+  <!-- Kochhaube -->
+  <ellipse cx="340" cy="128" rx="108" ry="76" fill="white"/>
+  <rect x="238" y="124" width="204" height="90" fill="white"/>
+  <line x1="305" y1="138" x2="300" y2="212" stroke="#DEDEDE" stroke-width="4"/>
+  <line x1="340" y1="136" x2="340" y2="212" stroke="#DEDEDE" stroke-width="4"/>
+  <line x1="375" y1="138" x2="380" y2="212" stroke="#DEDEDE" stroke-width="4"/>
+  <rect x="230" y="208" width="220" height="38" rx="7" fill="#EAEAEA"/>
+  <rect x="230" y="217" width="220" height="8" fill="#D4D4D4"/>
+
+  <!-- Ohren -->
+  <ellipse cx="178" cy="382" rx="64" ry="96" fill="#B87028" transform="rotate(-8 178 382)"/>
+  <ellipse cx="502" cy="382" rx="64" ry="96" fill="#B87028" transform="rotate(8 502 382)"/>
+  <ellipse cx="178" cy="394" rx="36" ry="66" fill="#CC8840" transform="rotate(-8 178 394)"/>
+  <ellipse cx="502" cy="394" rx="36" ry="66" fill="#CC8840" transform="rotate(8 502 394)"/>
+
+  <!-- Kopf -->
+  <circle cx="340" cy="386" r="152" fill="#D4892E"/>
+
+  <!-- Wangen -->
+  <ellipse cx="228" cy="414" rx="40" ry="26" fill="#E06840" opacity="0.25"/>
+  <ellipse cx="452" cy="414" rx="40" ry="26" fill="#E06840" opacity="0.25"/>
+
+  <!-- Schnauze -->
+  <ellipse cx="340" cy="460" rx="76" ry="58" fill="#B87028"/>
+
+  <!-- Augen -->
+  <circle cx="288" cy="350" r="35" fill="white"/>
+  <circle cx="392" cy="350" r="35" fill="white"/>
+  <circle cx="290" cy="356" r="23" fill="#111"/>
+  <circle cx="394" cy="356" r="23" fill="#111"/>
+  <circle cx="300" cy="345" r="10" fill="white"/>
+  <circle cx="404" cy="345" r="10" fill="white"/>
+  <circle cx="283" cy="363" r="4.5" fill="white"/>
+  <circle cx="387" cy="363" r="4.5" fill="white"/>
+
+  <!-- Nase -->
+  <ellipse cx="340" cy="428" rx="25" ry="17" fill="#111"/>
+  <ellipse cx="332" cy="422" rx="8" ry="5.5" fill="#444"/>
+
+  <!-- Mund -->
+  <path d="M 306 452 Q 340 482 374 452" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Zunge -->
+  <ellipse cx="340" cy="486" rx="26" ry="22" fill="#E04E70"/>
+  <path d="M 340 469 L 340 500" stroke="#C0305A" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Augenbrauen -->
+  <path d="M 258 328 Q 288 313 316 325" stroke="#8A5818" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M 364 325 Q 392 313 422 328" stroke="#8A5818" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+  <!-- Pfote + Kelle -->
+  <ellipse cx="498" cy="528" rx="36" ry="28" fill="#D4892E"/>
+  <rect x="510" y="466" width="14" height="80" rx="7" fill="#C07828" transform="rotate(22 517 506)"/>
+  <ellipse cx="554" cy="436" rx="29" ry="22" fill="#C8C8C8" stroke="#AAAAAA" stroke-width="2.5"/>
+  <ellipse cx="554" cy="436" rx="21" ry="15" fill="#DCDCDC"/>
+
+</svg>
