@@ -67,7 +67,7 @@ button:focus-visible,a:focus-visible,label:focus-within{outline:2px solid var(--
 .wrap{max-width:640px;margin:0 auto;padding:0 16px calc(48px + env(safe-area-inset-bottom))}
 
 /* ---------- Kopf ---------- */
-header.top{padding:22px 0 6px}
+header.top{padding:calc(22px + env(safe-area-inset-top)) 0 6px}
 .brand{display:flex;align-items:baseline;gap:10px}
 .brand h1{
   font-family:var(--display);font-weight:800;font-size:1.75rem;letter-spacing:-.01em;
@@ -295,7 +295,7 @@ header.top{padding:22px 0 6px}
 }
 .sheet.open{transform:translateY(0);visibility:visible}
 @media (prefers-reduced-motion:reduce){.sheet{transition:none}}
-.sheet .inner{max-width:640px;margin:0 auto;padding:18px 16px calc(48px + env(safe-area-inset-bottom))}
+.sheet .inner{max-width:640px;margin:0 auto;padding:calc(18px + env(safe-area-inset-top)) 16px calc(48px + env(safe-area-inset-bottom))}
 .backbtn{
   display:inline-flex;align-items:center;gap:6px;color:var(--enzian);font-weight:600;
   font-size:.9375rem;margin-top:32px;
